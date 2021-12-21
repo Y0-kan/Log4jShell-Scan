@@ -63,9 +63,9 @@ python3 log4j-scan.py -u http://192.168.111.129:8080/webstudy/hello-fengxuan --l
 ### 2.4 扫描URL列表
 
 ```
-python3 log4j-scan.py -l urls.txt --run-all-tests
+python3 log4j-scan.py -l urls.txt --ldap-addr 192.168.1.11:1389 --run-all-tests 
 
-python3 log4j-scan.py -l urls.txt --run-all-tests --waf-bypass
+python3 log4j-scan.py -l urls.txt --ldap-addr 192.168.1.11:1389 --run-all-tests --waf-bypass
 ```
 
 ### 2.5 所有可选参数
